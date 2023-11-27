@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class serviceCarImp implements serviceCar {
 
-    private CarDao carDao;
+    private final CarDao carDao;
 
     @Autowired
     public serviceCarImp(CarDao carDao) {
